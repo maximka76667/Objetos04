@@ -28,8 +28,10 @@ public class SocioClub {
 	}
 
 	public void setDni(String dni) {
-		if(dni.length() != 9) System.out.println("Error. Dni debe contener 9 caracteres.");
-		else this.dni = dni;
+		if (dni.length() != 9)
+			System.out.println("Error. Dni debe contener 9 caracteres.");
+		else
+			this.dni = dni;
 	}
 
 	public String getNombre() {
@@ -53,8 +55,10 @@ public class SocioClub {
 	}
 
 	public void setCuotaMensual(double cuotaMensual) {
-		if(cuotaMensual < 0) System.out.println("Error. Cuota Mensual no puede ser inferior a 0.");
-		else this.cuotaMensual = cuotaMensual;
+		if (cuotaMensual < 0)
+			System.out.println("Error. Cuota Mensual no puede ser inferior a 0.");
+		else
+			this.cuotaMensual = cuotaMensual;
 	}
 
 	// Print info
