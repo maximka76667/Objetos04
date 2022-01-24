@@ -14,7 +14,7 @@ public class Nif {
 	}
 
 	public void setDni(String dni) {
-		if (String.valueOf(dni).length() != 8) {
+		if (dni.length() != 8) {
 			System.out.println("Error");
 		} else {
 			this.dni = dni;
