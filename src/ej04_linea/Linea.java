@@ -11,6 +11,22 @@ public class Linea {
 		this(new Punto(0, 0, "A"), new Punto(0, 0, "B"));
 	}
 
+	public Punto getPuntoInicial() {
+		return puntoInicial;
+	}
+
+	public void setPuntoInicial(Punto puntoInicial) {
+		this.puntoInicial = puntoInicial;
+	}
+
+	public Punto getPuntoFinal() {
+		return puntoFinal;
+	}
+
+	public void setPuntoFinal(Punto puntoFinal) {
+		this.puntoFinal = puntoFinal;
+	}
+
 	public Linea(Punto puntoInicial, Punto puntoFinal) {
 		this.puntoInicial = puntoInicial;
 		this.puntoFinal = puntoFinal;
