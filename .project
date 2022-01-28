@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>objetos02</name>
+			<type>2</type>
+			<location>C:/Users/Usuario/eclipse-workspace/Objetos02/src</location>
+		</link>
+	</linkedResources>
 </projectDescription>
